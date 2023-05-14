@@ -1,0 +1,56 @@
+.my-masonry-grid {
+display: flex;
+margin-left: -30px; /* Adjust as needed */
+width: auto;
+}
+
+.my-masonry-grid_column {
+padding-left: 30px; /* Adjust as needed */
+background-clip: padding-box;
+}
+
+.image-wrapper {
+position: relative;
+margin-bottom: 30px; /* Adjust as needed */
+}
+
+.image-item {
+width: 100%;
+height: auto;
+display: block;
+object-fit: cover;
+}
+
+.image-text {
+position: relative;
+bottom: 20px;
+left: 5px;
+width: 100%;
+font-size: 14px;
+text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+gap: 8px;
+}
+
+.edit-button,
+.delete-button {
+background-color: #fff;
+color: #333;
+padding: 8px 16px;
+border: none;
+cursor: pointer;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+background-color: #333;
+color: #fff;
+}
